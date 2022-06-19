@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  AUTH0_CONFIG: {
+    domain: 'auth0 domain',
+    clientId: 'auth0 client ID',
+    audience: 'auth0 audience'
+  },
+  LOGIN_ROUTE: '/auth/login',
 };
 
 /*
